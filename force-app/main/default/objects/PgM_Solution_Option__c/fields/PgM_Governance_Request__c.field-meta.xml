@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Governance_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Governance Request</label>
+    <referenceTo>PgM_Governance__c</referenceTo>
+    <relationshipLabel>Solution Options</relationshipLabel>
+    <relationshipName>Solution_Options</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

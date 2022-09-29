@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Schedule__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Green = 1 to 3
+Yellow = 4 to 7
+Red = 8 to 10</inlineHelpText>
+    <label>Schedule</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PgM_RAG</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_ARB_Categories__c</fullName>
+    <externalId>false</externalId>
+    <label>ARB Categories</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compliance Requirement</fullName>
+                <default>false</default>
+                <label>Compliance Requirement</label>
+            </value>
+            <value>
+                <fullName>Custom Interface Needed</fullName>
+                <default>false</default>
+                <label>Custom Interface Needed</label>
+            </value>
+            <value>
+                <fullName>Expanded Scope</fullName>
+                <default>false</default>
+                <label>Expanded Scope</label>
+            </value>
+            <value>
+                <fullName>High Customization</fullName>
+                <default>false</default>
+                <label>High Customization</label>
+            </value>
+            <value>
+                <fullName>High Data Volume</fullName>
+                <default>false</default>
+                <label>High Data Volume</label>
+            </value>
+            <value>
+                <fullName>High Performance Needed</fullName>
+                <default>false</default>
+                <label>High Performance Needed</label>
+            </value>
+            <value>
+                <fullName>Info Sec / Security</fullName>
+                <default>false</default>
+                <label>Info Sec / Security</label>
+            </value>
+            <value>
+                <fullName>New/Changed L2 Capability</fullName>
+                <default>false</default>
+                <label>New/Changed L2 Capability</label>
+            </value>
+            <value>
+                <fullName>New Business Unit/Orgs</fullName>
+                <default>false</default>
+                <label>New Business Unit/Orgs</label>
+            </value>
+            <value>
+                <fullName>New Integration</fullName>
+                <default>false</default>
+                <label>New Integration</label>
+            </value>
+            <value>
+                <fullName>New System Replacement</fullName>
+                <default>false</default>
+                <label>New System Replacement</label>
+            </value>
+            <value>
+                <fullName>Significant Data Processing</fullName>
+                <default>false</default>
+                <label>Significant Data Processing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce</fullName>
+    <columns>NAME</columns>
+    <columns>PgM_First_Name__c</columns>
+    <columns>PgM_Last_Name__c</columns>
+    <columns>PgM_User__c</columns>
+    <columns>PgM_Company__c</columns>
+    <columns>PgM_Primary_Role__c</columns>
+    <columns>PgM_Primary_Email__c</columns>
+    <columns>PgM_Workstream__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PgM_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Active</label>
+</ListView>

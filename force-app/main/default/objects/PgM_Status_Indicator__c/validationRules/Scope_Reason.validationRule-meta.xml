@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope_Reason</fullName>
+    <active>true</active>
+    <description>Scope rating is Yellow or Red</description>
+    <errorConditionFormula>PgM_Scope_Value__c &gt; 3 &amp;&amp;
+ISBLANK( PgM_Scope_Reason__c )</errorConditionFormula>
+    <errorDisplayField>PgM_Scope_Reason__c</errorDisplayField>
+    <errorMessage>Reason is required when the Scope Rating is Yellow or Red.</errorMessage>
+</ValidationRule>

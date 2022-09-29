@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision_Date_is_Required</fullName>
+    <active>true</active>
+    <description>Decision Date is required before submitting for Approval.</description>
+    <errorConditionFormula>ISPICKVAL( PgM_Status__c, &apos;Ready for Approval&apos;) &amp;&amp; 
+RecordType.Name = &apos;Decision&apos; &amp;&amp;
+ISBLANK( PgM_Decision_Date__c )</errorConditionFormula>
+    <errorDisplayField>PgM_Decision_Date__c</errorDisplayField>
+    <errorMessage>Please enter a Decision Date before submitting for approval.</errorMessage>
+</ValidationRule>

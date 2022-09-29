@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resource_Reason</fullName>
+    <active>true</active>
+    <description>Resources are Yellow or Red</description>
+    <errorConditionFormula>PgM_Resources_Value__c &gt; 3 &amp;&amp;
+ISBLANK( PgM_Resources_Reason__c )</errorConditionFormula>
+    <errorDisplayField>PgM_Resources_Reason__c</errorDisplayField>
+    <errorMessage>Reason is required when the Resources Rating is Yellow or Red.</errorMessage>
+</ValidationRule>

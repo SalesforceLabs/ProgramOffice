@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Visibility__c</fullName>
+    <externalId>false</externalId>
+    <label>Visibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Workstream</fullName>
+                <default>true</default>
+                <label>1 - Workstream</label>
+            </value>
+            <value>
+                <fullName>2 - PMO</fullName>
+                <default>false</default>
+                <label>2 - PMO</label>
+            </value>
+            <value>
+                <fullName>3 - Operating Committee</fullName>
+                <default>false</default>
+                <label>3 - Operating Committee</label>
+            </value>
+            <value>
+                <fullName>4 - Steering Committee</fullName>
+                <default>false</default>
+                <label>4 - Steering Committee</label>
+            </value>
+            <value>
+                <fullName>0 - Pending Review</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0 - Pending Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

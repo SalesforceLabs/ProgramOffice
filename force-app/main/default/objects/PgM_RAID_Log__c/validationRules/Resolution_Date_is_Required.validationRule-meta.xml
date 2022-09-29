@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Date_is_Required</fullName>
+    <active>true</active>
+    <description>Resolution Date is required if the Status is set to Closed.</description>
+    <errorConditionFormula>(ISPICKVAL( PgM_Status__c, &apos;Closed&apos;) ||
+ISPICKVAL( PgM_Status__c, &apos;Closed - Pending Review&apos;)) &amp;&amp; 
+(RecordType.Name = &apos;Issue&apos; || RecordType.Name = &apos;Risk&apos;) &amp;&amp;
+ISBLANK( PgM_Resolution_Date__c )</errorConditionFormula>
+    <errorDisplayField>PgM_Resolution_Date__c</errorDisplayField>
+    <errorMessage>Please enter a Resolution Date before closing.</errorMessage>
+</ValidationRule>

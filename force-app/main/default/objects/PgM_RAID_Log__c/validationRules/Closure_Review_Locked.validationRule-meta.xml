@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closure_Review_Locked</fullName>
+    <active>true</active>
+    <description>The Closure Review checkbox can only be modified by the Created By user.</description>
+    <errorConditionFormula>CreatedById  &lt;&gt;  $User.Id &amp;&amp;
+ISCHANGED( PgM_Closure_Review__c )</errorConditionFormula>
+    <errorDisplayField>PgM_Closure_Review__c</errorDisplayField>
+    <errorMessage>Only the Created By user may change the Closure Review checkbox.</errorMessage>
+</ValidationRule>

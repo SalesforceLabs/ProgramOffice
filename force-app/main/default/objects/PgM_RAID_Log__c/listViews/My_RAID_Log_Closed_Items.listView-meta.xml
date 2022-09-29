@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_RAID_Log_Closed_Items</fullName>
+    <columns>NAME</columns>
+    <columns>PgM_Description__c</columns>
+    <columns>PgM_Workstream_Parent__c</columns>
+    <columns>PgM_Primary_Owner__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>PgM_Due_Date__c</columns>
+    <columns>PgM_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PgM_Status__c</field>
+        <operation>equals</operation>
+        <value>Closed - Pending Review,Closed,Approved</value>
+    </filters>
+    <filters>
+        <field>PgM_Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My RAID Log - Closed Items</label>
+</ListView>

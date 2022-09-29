@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RAID Log status change notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RAID Log Status Change</name>
+    <style>none</style>
+    <subject>{!PgM_RAID_Log__c.Name} status changed to {!PgM_RAID_Log__c.PgM_Status__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

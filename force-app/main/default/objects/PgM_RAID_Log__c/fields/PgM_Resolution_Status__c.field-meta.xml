@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Resolution_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Resolved - risk is no longer a concern.
+Owned - assigned owner of risk that cannot be resolved during PI planning.
+Accepted - risk is accepted as is.
+Mitigated - impact of the risk has been reduced.</inlineHelpText>
+    <label>Resolution Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Owned</fullName>
+                <default>false</default>
+                <label>Owned</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Mitigated</fullName>
+                <default>false</default>
+                <label>Mitigated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgMRisk</fullName>
+    <fields>RecordTypeId</fields>
+    <fields>PgM_Primary_Owner__c</fields>
+    <fields>PgM_Secondary_Owner__c</fields>
+    <fields>PgM_Due_Date__c</fields>
+    <fields>PgM_Status__c</fields>
+    <fields>PgM_Workstream_Parent__c</fields>
+    <fields>PgM_Risk_Indicator__c</fields>
+    <label>Risk</label>
+</CompactLayout>

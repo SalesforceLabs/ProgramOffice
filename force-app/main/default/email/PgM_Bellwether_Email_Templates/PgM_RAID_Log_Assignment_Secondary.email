@@ -1,0 +1,8 @@
+Hi {!PgM_RAID_Log__c.PgM_Secondary_Owner__c},
+
+You have been assigned as the Secondary Owner of a new {!PgM_RAID_Log__c.RecordType} in the {!PgM_RAID_Log__c.PgM_Program__c} Program Office.
+
+{!PgM_RAID_Log__c.Name}
+{!PgM_RAID_Log__c.PgM_Description__c}
+
+Click here for further details: {!PgM_RAID_Log__c.Link}

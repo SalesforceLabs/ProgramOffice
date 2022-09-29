@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Issue</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>PgM_RAID</compactLayoutAssignment>
+    <label>Issue</label>
+    <picklistValues>
+        <picklist>PgM_Approval_Lifecycle__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Impact_to__c</picklist>
+        <values>
+            <fullName>Not Release Specific</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Release 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release 8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_L1_Capability__c</picklist>
+        <values>
+            <fullName>Sample 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Likelihood__c</picklist>
+        <values>
+            <fullName>1 - Rare</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2 - Unlikely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Possible</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Moderation_Status__c</picklist>
+        <values>
+            <fullName>Not Published</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Published</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted - In Review</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Proximity__c</picklist>
+        <values>
+            <fullName>1 - 90%2B Days</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2 - 60 to 90 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - 30 to 60 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - 7 to 30 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - 1 to 7 Days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Resolution_Status__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mitigated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Severity_Level__c</picklist>
+        <values>
+            <fullName>1 - Insignificant</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2 - Minor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Extreme</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Pending Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Visibility__c</picklist>
+        <values>
+            <fullName>1 - Workstream</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2 - PMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Operating Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Steering Committee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

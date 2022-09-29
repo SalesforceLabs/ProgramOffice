@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acceptance</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Acceptance</compactLayoutAssignment>
+    <description>Tracks the Review &amp; Approval process for workstream Pre Build and Build artifacts</description>
+    <label>Acceptance</label>
+    <picklistValues>
+        <picklist>PgM_Acceptance_Status__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Submitted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_L1_Capability__c</picklist>
+        <values>
+            <fullName>Sample 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample 9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Rating__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Status__c</picklist>
+        <values>
+            <fullName>Blocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Track</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Late</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

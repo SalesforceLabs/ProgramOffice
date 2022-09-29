@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>PgM_Governance__c</entityName>
+    <fieldName>PgM_Status__c</fieldName>
+    <masterLabel>Change Request Approval</masterLabel>
+    <recordTypeName>PgM_Change_Request</recordTypeName>
+</PathAssistant>

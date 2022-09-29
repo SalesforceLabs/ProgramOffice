@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_Solution_Option_can_be_Recommended</fullName>
+    <active>true</active>
+    <description>Only one Solution Option of a Governance Request can be Recommended.</description>
+    <errorConditionFormula>PgM_Governance_Request__r.PgM_Recommended_Solution_Count__c &gt; 0 &amp;&amp;
+ PgM_Recommended_Solution__c = true</errorConditionFormula>
+    <errorDisplayField>PgM_Recommended_Solution__c</errorDisplayField>
+    <errorMessage>Only one Solution Option can be the Recommended Solution at a time.</errorMessage>
+</ValidationRule>

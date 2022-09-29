@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Level_of_Customization__c</fullName>
+    <externalId>false</externalId>
+    <label>Level of Customization</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simple Configuration</fullName>
+                <default>false</default>
+                <label>Simple Configuration</label>
+            </value>
+            <value>
+                <fullName>Complex Configuration</fullName>
+                <default>false</default>
+                <label>Complex Configuration</label>
+            </value>
+            <value>
+                <fullName>Some Custom Code</fullName>
+                <default>false</default>
+                <label>Some Custom Code</label>
+            </value>
+            <value>
+                <fullName>Majority Custom Code</fullName>
+                <default>false</default>
+                <label>Majority Custom Code</label>
+            </value>
+            <value>
+                <fullName>Non Salesforce Code</fullName>
+                <default>false</default>
+                <label>Non Salesforce Code</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

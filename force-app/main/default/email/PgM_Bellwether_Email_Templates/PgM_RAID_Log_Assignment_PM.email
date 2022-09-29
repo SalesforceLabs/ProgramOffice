@@ -1,0 +1,10 @@
+Hi {!PgM_RAID_Log__c.PgM_Project_Manager_Name__c},
+
+A RAID item ({!PgM_RAID_Log__c.Name}) was assigned to you because the original Primary Owner is no longer active with the {!PgM_RAID_Log__c.PgM_Program__c}. Because {!PgM_RAID_Log__c.Name} is assigned to the {!PgM_RAID_Log__c.PgM_Workstream_Parent__c} workstream, the item has been reassigned to you so that you can review it and determine who the appropriate new Primary Owner will be. 
+
+Further details are below:
+
+{!PgM_RAID_Log__c.Name}
+{!PgM_RAID_Log__c.PgM_Description__c}
+
+Click here for further details: {!PgM_RAID_Log__c.Link}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Governance_Request</fullName>
+    <fields>Name</fields>
+    <fields>PgM_Request_Owner__c</fields>
+    <fields>PgM_Primary_Workstream__c</fields>
+    <fields>PgM_Status__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Governance Request</label>
+</CompactLayout>

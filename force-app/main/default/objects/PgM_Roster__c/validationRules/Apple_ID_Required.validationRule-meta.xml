@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apple_ID_Required</fullName>
+    <active>true</active>
+    <description>Requires the Apple ID field is updated when the Apple Status is set to Provisioned.</description>
+    <errorConditionFormula>ISBLANK( PgM_Secondary_Email__c ) &amp;&amp;  ISPICKVAL( PgM_VPN_Status__c , &quot;AppleConnect Provisioned&quot;) &amp;&amp;  PgM_Active__c = true</errorConditionFormula>
+    <errorDisplayField>PgM_Secondary_Email__c</errorDisplayField>
+    <errorMessage>Apple email is required.</errorMessage>
+</ValidationRule>

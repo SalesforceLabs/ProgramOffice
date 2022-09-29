@@ -1,0 +1,7 @@
+Hi {!PgM_RAID_Log__c.PgM_Primary_Owner__c}
+
+The status of {!PgM_RAID_Log__c.Name} has been changed to {!PgM_RAID_Log__c.PgM_Status__c} by {!PgM_RAID_Log__c.LastModifiedBy}.
+
+{!PgM_RAID_Log__c.PgM_Description__c}
+
+Click here for further details: {!PgM_RAID_Log__c.Link}

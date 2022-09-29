@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Status_Summary__c</fullName>
+    <externalId>false</externalId>
+    <label>Status Summary</label>
+    <referenceTo>PgM_Status_Summary__c</referenceTo>
+    <relationshipLabel>Workstream Status Indicators</relationshipLabel>
+    <relationshipName>Workstream_Status_Indicators</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

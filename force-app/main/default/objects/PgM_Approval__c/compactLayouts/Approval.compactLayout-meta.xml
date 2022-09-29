@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval</fullName>
+    <fields>PgM_Record_Name__c</fields>
+    <fields>PgM_Type__c</fields>
+    <fields>PgM_Approver__c</fields>
+    <fields>PgM_Submitter__c</fields>
+    <fields>PgM_Status__c</fields>
+    <label>Approval</label>
+</CompactLayout>

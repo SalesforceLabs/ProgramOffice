@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Status_is_Required</fullName>
+    <active>true</active>
+    <description>Resolution Status is required when a risk is closed.</description>
+    <errorConditionFormula>ISBLANK(TEXT( PgM_Resolution_Status__c )) &amp;&amp;
+RecordType.Name = &apos;Risk&apos; &amp;&amp;
+(ISPICKVAL( PgM_Status__c , &quot;Closed&quot;) ||
+ISPICKVAL( PgM_Status__c, &apos;Closed - Pending Review&apos;))</errorConditionFormula>
+    <errorDisplayField>PgM_Resolution_Status__c</errorDisplayField>
+    <errorMessage>Resolution Status is required when a Risk is Closed.</errorMessage>
+</ValidationRule>

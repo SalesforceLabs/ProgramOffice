@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision_is_Locked</fullName>
+    <active>true</active>
+    <description>Prevents edits to Decision records that have been Approved and Locked</description>
+    <errorConditionFormula>((ISCHANGED(PgM_Decision_Date__c)) || 
+(ISCHANGED(PgM_Decision_Made__c)) || 
+(ISCHANGED(PgM_Description__c)) || 
+(ISCHANGED(PgM_Due_Date__c)) || 
+(ISCHANGED(PgM_L1_Capability__c)) || 
+(ISCHANGED(PgM_Impact_to__c)) || 
+(ISCHANGED(PgM_Key_Considerations__c)) || 
+(ISCHANGED(PgM_Workstream_Parent__c)) || 
+(ISCHANGED(PgM_Primary_Owner__c)) || 
+(ISCHANGED(PgM_Secondary_Owner__c)) || 
+(ISCHANGED(PgM_Status__c)) || 
+(ISCHANGED(PgM_Visibility__c))) &amp;&amp;
+ PgM_Record_Locked__c = true &amp;&amp;
+ ISPICKVAL(  PgM_Approval_Lifecycle__c  , &apos;Approved&apos;)</errorConditionFormula>
+    <errorMessage>The Decision has been approved and the record is locked.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome_Submited_and_is_Locked</fullName>
+    <active>true</active>
+    <description>Prevents edits to Outcome records that are Submitted for Approval and Locked</description>
+    <errorConditionFormula>(ISCHANGED( PgM_Acceptance_Status__c ) ||
+ISCHANGED( PgM_Accomplished__c ) ||
+ISCHANGED( PgM_Actual_Date__c ) ||
+ISCHANGED( PgM_Approved_Date__c ) ||
+ISCHANGED( PgM_Approver__c ) ||
+ISCHANGED( PgM_Deliverable__c ) ||
+ISCHANGED( PgM_Issues_or_Blockers__c ) ||
+ISCHANGED( PgM_L1_Capability__c ) ||
+ISCHANGED( Name ) ||
+ISCHANGED( PgM_Planned_Date__c ) ||
+ISCHANGED( PgM_Plans_Next_Week__c ) ||
+ISCHANGED( PgM_Rating__c ) ||
+ISCHANGED( RecordTypeId ) ||
+ISCHANGED( PgM_Ref_Link__c ) ||
+ISCHANGED( PgM_Status__c ) ||
+ISCHANGED( PgM_Workstream__c ) ||
+ISCHANGED( PgM_Status__c )) &amp;&amp;
+PgM_Record_Locked__c = true &amp;&amp;
+PgM_Current_Approver__c = false &amp;&amp;
+ISPICKVAL(  PgM_Acceptance_Status__c  , &apos;Submitted for Approval&apos;)</errorConditionFormula>
+    <errorMessage>The Outcome has been submitted for approval and the record is locked.</errorMessage>
+</ValidationRule>

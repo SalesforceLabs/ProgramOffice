@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deliverable_Submitted_and_is_Locked</fullName>
+    <active>true</active>
+    <description>Prevents edits to Deliverable records that are Submitted for Approval and Locked</description>
+    <errorConditionFormula>(ISCHANGED( PgM_Acceptance_Criteria__c ) ||
+ISCHANGED( PgM_Actual_Date__c ) ||
+ISCHANGED( PgM_Lifecycle__c ) ||
+ISCHANGED( PgM_Approved_Date__c ) ||
+ISCHANGED( PgM_Approver__c ) ||
+ISCHANGED( Name ) ||
+ISCHANGED( PgM_Description__c ) ||
+ISCHANGED( PgM_Mitigation__c ) ||
+ISCHANGED( PgM_Planned_Date__c ) ||
+ISCHANGED( PgM_Primary_Owner__c ) ||
+ISCHANGED( PgM_Program__c ) ||
+ISCHANGED( PgM_Rating__c ) ||
+ISCHANGED( RecordTypeId ) ||
+ISCHANGED( PgM_Status__c ) ||
+ISCHANGED( PgM_Submitter__c )) &amp;&amp;
+PgM_Record_Locked__c = true &amp;&amp;
+PgM_Current_Approver__c = false &amp;&amp;
+ISPICKVAL( PgM_Lifecycle__c , &apos;Submitted for Approval&apos;)</errorConditionFormula>
+    <errorMessage>The Deliverable has been submitted for approval and the record is locked.</errorMessage>
+</ValidationRule>

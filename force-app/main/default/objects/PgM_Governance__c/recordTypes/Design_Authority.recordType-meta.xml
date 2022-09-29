@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Authority</fullName>
+    <active>true</active>
+    <label>Design Authority</label>
+    <picklistValues>
+        <picklist>PgM_ARB_Categories__c</picklist>
+        <values>
+            <fullName>Compliance Requirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Interface Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expanded Scope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Customization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Data Volume</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Performance Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business Unit%2FOrgs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New System Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New%2FChanged L2 Capability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Significant Data Processing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Change_To__c</picklist>
+        <values>
+            <fullName>Budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Priority__c</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Requested_By__c</picklist>
+        <values>
+            <fullName>Customer Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Ready for Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

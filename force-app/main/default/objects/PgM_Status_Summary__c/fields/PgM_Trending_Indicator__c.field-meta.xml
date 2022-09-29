@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Trending_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(PgM_Trending__c),
+&quot;Up&quot;, IMAGE(&quot;/resource/PgM_Up_Indicator&quot;,&quot;Up&quot;),
+&quot;Down&quot;, IMAGE(&quot;/resource/PgM_Down_Indicator&quot;,&quot;Down&quot;),
+&quot;Stable&quot;, IMAGE(&quot;/resource/PgM_Stable_Indicator&quot;,&quot;Stable&quot;),
+&quot;Not Found&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Trending</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

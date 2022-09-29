@@ -1,0 +1,8 @@
+Hi {!PgM_RAID_Log__c.PgM_Primary_Owner__c},
+
+You have a RAID Log item coming due on {!PgM_RAID_Log__c.PgM_Due_Date__c} in the {!PgM_RAID_Log__c.PgM_Program__c} Program Office.
+
+{!PgM_RAID_Log__c.Name}
+{!PgM_RAID_Log__c.PgM_Description__c}
+
+Click here for further details: {!PgM_RAID_Log__c.Link}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PgM_Notify_Overdue</fullName>
+        <description>Notify Primary Owner when RAID Log item is overdue</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PgM_Primary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Overdue</template>
+    </alerts>
+    <alerts>
+        <fullName>PgM_Notify_Primary</fullName>
+        <description>Notify Primary Owner when RAID Log is assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PgM_Primary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Assignment</template>
+    </alerts>
+    <alerts>
+        <fullName>PgM_Notify_Project_Manager_when_inactive_RAID_item_is_reassigned</fullName>
+        <description>Notify Project Manager when inactive RAID item is reassigned</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PgM_PM_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Assignment_PM</template>
+    </alerts>
+    <alerts>
+        <fullName>PgM_Notify_Reminder</fullName>
+        <description>Remind Primary Owner when a RAID Log item is coming due</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PgM_Primary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>PgM_Notify_Secondary</fullName>
+        <description>Notify Secondary Owner when RAID Log is assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PgM_Secondary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Assignment_Secondary</template>
+    </alerts>
+    <alerts>
+        <fullName>PgM_RAID_Log_Closed</fullName>
+        <description>Notify Creator when RAID Log is Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PgM_Bellwether_Email_Templates/PgM_RAID_Log_Closed</template>
+    </alerts>
+</Workflow>

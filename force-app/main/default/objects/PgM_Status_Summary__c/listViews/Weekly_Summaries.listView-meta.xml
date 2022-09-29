@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weekly_Summaries</fullName>
+    <columns>NAME</columns>
+    <columns>PgM_Week_Ending__c</columns>
+    <columns>PgM_Program__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PgM_Status_Summary__c.PgM_Weekly</value>
+    </filters>
+    <label>Weekly Summaries</label>
+</ListView>

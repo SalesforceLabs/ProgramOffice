@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Option</fullName>
+    <active>true</active>
+    <label>Solution Option</label>
+    <picklistValues>
+        <picklist>PgM_Level_of_Customization__c</picklist>
+        <values>
+            <fullName>Complex Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majority Custom Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Salesforce Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simple Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some Custom Code</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Level_of_Effort__c</picklist>
+        <values>
+            <fullName>Large %284-8 Weeks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium %282-4 Weeks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small %281-2 Weeks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Large %28%3E 8 Weeks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Small %28%3C 1 Week%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Level_of_Effort__c</fullName>
+    <externalId>false</externalId>
+    <label>Level of Effort</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>X-Small (&lt; 1 Week)</fullName>
+                <default>false</default>
+                <label>X-Small (&lt; 1 Week)</label>
+            </value>
+            <value>
+                <fullName>Small (1-2 Weeks)</fullName>
+                <default>false</default>
+                <label>Small (1-2 Weeks)</label>
+            </value>
+            <value>
+                <fullName>Medium (2-4 Weeks)</fullName>
+                <default>false</default>
+                <label>Medium (2-4 Weeks)</label>
+            </value>
+            <value>
+                <fullName>Large (4-8 Weeks)</fullName>
+                <default>false</default>
+                <label>Large (4-8 Weeks)</label>
+            </value>
+            <value>
+                <fullName>X-Large (&gt; 8 Weeks)</fullName>
+                <default>false</default>
+                <label>X-Large (&gt; 8 Weeks)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

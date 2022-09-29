@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member</fullName>
+    <active>true</active>
+    <description>Program team members that do not require onboarding tracking.</description>
+    <label>Team Member</label>
+    <picklistValues>
+        <picklist>PgM_ALM_Status__c</picklist>
+        <values>
+            <fullName>Provisioned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Company__c</picklist>
+        <values>
+            <fullName>Customer Name</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Vendor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_DevOps_Status__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Provisioned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Laptop_Status__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Offboarding_Status__c</picklist>
+        <values>
+            <fullName>Deactivated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deactivation in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offboarded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offboarding Email Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request Deactivation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Onboarding_Status__c</picklist>
+        <values>
+            <fullName>Awaiting VPN Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting VPN Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Email Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Email Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Repository_Status__c</picklist>
+        <values>
+            <fullName>Provisioned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_Staffing_Source__c</picklist>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PgM_VPN_Status__c</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provisioned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

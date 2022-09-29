@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PgM_Monthly_Status</fullName>
+    <fields>Name</fields>
+    <fields>PgM_Program__c</fields>
+    <fields>PgM_Month_Ending__c</fields>
+    <fields>PgM_Schedule_Indicator__c</fields>
+    <fields>PgM_Budget_Indicator__c</fields>
+    <fields>PgM_Scope_Indicator__c</fields>
+    <fields>PgM_Resources_Indicator__c</fields>
+    <fields>PgM_Trending_Indicator__c</fields>
+    <label>Monthly Status</label>
+</CompactLayout>

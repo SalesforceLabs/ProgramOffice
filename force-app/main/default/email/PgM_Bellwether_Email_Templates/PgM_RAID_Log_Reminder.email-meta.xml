@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RAID Log reminder notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RAID Log Reminder</name>
+    <style>none</style>
+    <subject>{!PgM_RAID_Log__c.RecordType} Reminder</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
